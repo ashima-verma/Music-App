@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:queryHint="search"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ic_ab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light"
+        android:src="@drawable/sface" />
+
+    <TextView
+        android:id="@+id/artists_a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#d81b60"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/Artists"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/songs_a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6a1b9a"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/Songs"
+        android:textAlignment="center"
+        android:textColor="#ffeb3b"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/albums_a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/Albums"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/playlists_a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/Playlists"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="42sp" />
+
+</LinearLayout>
